@@ -1,0 +1,61 @@
+# =========================
+# Node.js
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Vite / React
+# =========================
+dist/
+.vite/
+.cache/
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Docker
+# =========================
+*.log
+docker-compose.override.yml
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDEs
+# =========================
+.idea/
+.vscode/
+*.iml
+
+# =========================
+# Build / Coverage
+# =========================
+coverage/
+*.lcov
+
+# =========================
+# Temporary files
+# =========================
+tmp/
+temp/
+*.swp
+*.swo
+
+# =========================
+# Optional lockfiles (если не используешь)
+# =========================
+# yarn.lock
+# pnpm-lock.yaml
